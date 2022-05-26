@@ -1,0 +1,28 @@
+{
+  "name": "interaction-practice",
+  "version": "1.0.0",
+  "description": "magnified cursor, weather status, HTML geolocation API, CORS error prevention on API calls, transition integration, CSS grid implentation",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkysr/interaction-practice.git"
+  },
+  "keywords": [
+    "interaction",
+    "CSS3",
+    "JavaScript",
+    "HTML5",
+    "practice"
+  ],
+  "author": "Berk YASAR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berkysr/interaction-practice/issues"
+  },
+  "homepage": "https://github.com/berkysr/interaction-practice#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

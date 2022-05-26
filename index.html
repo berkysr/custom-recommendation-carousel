@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sources/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/df2bbbc9aa.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95a7214987.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="language-checkbox">
+        <input type="radio" name="lang-selector" class="language" value="Turkish">
+        <label for="Turkish">TR</label>
+        <input type="radio" name="lang-selector" class="language" value="English">
+        <label for="English">EN</label>
+    </div>
+    <div class="basket">
+        <i class="fas fa-shopping-basket"></i>
+        <div class="basket-count"><div class="number">0</div></div>
+    </div>
+    <div class="wrapper">
+        <div class="header"></div>
+        <div class="products">
+            <ul class="product-list">
+            </ul>
+        </div>
+    </div>
+    <div class="added-cart-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+        </div>
+    </div>
+    <script type="module" src="./sources/script.js"></script>
+    <script type="module" src="./sources/feed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>
